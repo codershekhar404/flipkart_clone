@@ -1,0 +1,180 @@
+@import url("style.css");
+/* For Mobile */
+/* On screens that are 480px or less */
+@media (max-width: 820px) {
+  nav {
+    padding: 1rem 0;
+    flex-direction: column;
+  }
+  .logo-container {
+    margin-left: 2rem;
+    align-self: flex-start;
+    margin-top: 0.9rem;
+  }
+
+  .logo {
+    width: 6rem;
+  }
+
+  ul {
+    display: none;
+  }
+  .mobile {
+    display: flex;
+    position: absolute;
+    right: 2rem;
+  }
+  .mobile li {
+    padding: 1rem;
+    font-size: 1.8rem;
+  }
+  .mobile li:first-child {
+    background-color: var(--main-bg-color);
+    color: var(--main-color);
+  }
+  .search {
+    width: 92%;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    order: 3;
+  }
+
+  .search input {
+    width: 100%;
+    justify-self: center;
+    font-size: 1.2rem;
+  }
+
+  .search i {
+    top: -2.7rem;
+    left: 34.3rem;
+    font-size: 1.6rem;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .slideshow-container {
+    order: -1;
+    width: 100%;
+  }
+  .slideshow img {
+    width: 100vw;
+  }
+
+  #prevBtn,
+  #nextBtn {
+    padding: 1.8rem 0.8rem;
+    font-size: 1.3rem;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+  }
+
+  #nextBtn {
+    right: 0;
+    border-radius: 5px 0 0 5px;
+  }
+  .category {
+    flex-wrap: wrap;
+  }
+  .items-head {
+    display: none;
+  }
+  .items {
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 2rem;
+    gap: 2rem 0;
+  }
+
+  .product-info {
+    margin-top: 1.8rem;
+  }
+
+  .product-info h2 {
+    margin-bottom: 0rem;
+  }
+  .product-container img {
+    width: 10rem;
+  }
+  .ad {
+    display: grid;
+    padding: 0 1rem;
+    grid-template-columns: auto auto;
+    grid-gap: 0.5rem;
+  }
+  .ad img {
+    width: calc(96vw / 2);
+  }
+  .links {
+    flex-direction: column;
+    padding: 0 2rem;
+  }
+  .links h4 {
+    font-size: 1.8rem;
+  }
+  .links a,
+  .links p {
+    font-size: 1.6rem;
+  }
+  .address {
+    order: -1;
+  }
+
+  .about,
+  .help,
+  .policy,
+  .mail-address {
+    display: none;
+  }
+  .social {
+    margin: 1rem 0;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .social h4 {
+    display: none;
+  }
+
+  .facility {
+    flex-wrap: wrap;
+    gap: 1.2rem 1rem;
+    padding: 1rem;
+  }
+  .facility img {
+    width: 100%;
+  }
+}
+/* On screens that are 400px or less */
+@media (max-width: 400px) {
+  .search i {
+    top: -2.7rem;
+    left: 30.3rem;
+    font-size: 1.6rem;
+  }
+  .search {
+    width: 92%;
+  }
+}
+
+/* @media (min-width: 821px) and (max-width: 1023px) {
+} */
+
+@media (min-width: 481px) and (max-width: 820px) {
+  .slideshow-container {
+    width: 100%;
+  }
+  .search {
+    width: 93%;
+  }
+
+  .search input {
+    width: 100%;
+  }
+
+  .search i {
+    top: -2.5rem;
+    left: 71.3rem;
+    font-size: 1.6rem;
+  }
+}

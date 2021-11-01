@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!
+    </title>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/res.css">
+    <!-- Font Awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+</head>
+
+<body onload="loading()">
+    <div id="load">
+        <img src="img/logo.png" alt="Preload">
+    </div>
+    <header>
+        <nav>
+            <!-- Logo -->
+            <div class="logo-container">
+                <img src="img/logo.png" alt="Logo" class="logo">
+                <p>Explore
+                    <span>Plus</span>
+                    <img src="img/plus.png" alt="Plus Icon" width="10px">
+                </p>
+            </div>
+            <!-- search btn -->
+            <div class="search">
+                <input type="search" placeholder="Search for products, brands and more">
+                <i class="fas fa-search"></i>
+            </div>
+            <!-- navigation -->
+            <ul>
+                <li>Login</li>
+                <li>More <i class="fas fa-angle-down"></i></li>
+                <li><i class="fas fa-shopping-cart"></i> Cart</li>
+            </ul>
+            <ul class="mobile">
+                <li><i class="fas fa-heart"></i></li>
+                <li><i class="fas fa-user-circle"></i></i></li>
+                <li><i class="fas fa-shopping-cart"></i></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <!-- category start -->
+        <section class="category">
+            <div class="item"> <img src="img/cat1.webp" alt="Mobile">
+                <p>Mobiles</p>
+            </div>
+            <div class="item"> <img src="img/cat2.webp" alt="electronics">
+                <p>Fashion</p>
+            </div>
+            <div class="item"> <img src="img/cat3.webp" alt="electronics">
+                <p>Electronics</p>
+            </div>
+            <div class="item"> <img src="img/cat4.webp" alt="home">
+                <p>Home</p>
+            </div>
+            <div class="item"> <img src="img/cat5.webp" alt="travel">
+                <p>Travel</p>
+            </div>
+            <div class="item"> <img src="img/cat6.webp" alt="appliances">
+                <p>Appliances</p>
+            </div>
+            <div class="item"> <img src="img/cat7.webp" alt="furniture">
+                <p>Furniture</p>
+            </div>
+            <div class="item"> <img src="img/cat8.webp" alt="beauty">
+                <p>Beauty, Toys & more</p>
+            </div>
+            <div class="item"> <img src="img/cat9.webp" alt="grocery">
+                <p>Grocery</p>
+            </div>
+        </section>
+        <!-- category End -->
+
+        <!-- Slideshow start -->
+        <section class="slideshow-container">
+            <a href="#" id="prevBtn">&#10094</a>
+            <a href="#" id="nextBtn">&#10095</a>
+            <div class="slideshow">
+                <img src="img/offer3.jpg" alt="Offer" id="lastClone">
+                <img src="img/offer1.jpg" alt="Offer">
+                <img src="img/offer2.jpg" alt="Offer">
+                <img src="img/offer3.jpg" alt="Offer">
+                <img src="img/offer1.jpg" alt="Offer" id="firstClone">
+
+            </div>
+        </section>
+        <!-- Slideshow End -->
+
+        <!-- Bank offer start -->
+        <section class="offer">
+            <img src="img/offer.webp" alt="Bank Offer">
+        </section>
+        <!-- Bank offer end -->
+
+        <!-- items Start -->
+        <section class="item-container">
+            <div class="items-head">
+                <h2>Top Offer</h2>
+                <button>VIEW ALL</button>
+                <img src="img/itemOffer.jpg" alt="">
+            </div>
+            <div class="items">
+                <div class="product-container">
+                    <img src="img/item1.jpeg" alt="">
+                    <div class="product-info">
+                        <h2>Cabinet & Drawers</h2>
+                        <p>From ₹499</p>
+                        <p>Modern & Trendy</p>
+                    </div>
+                </div>
+                <div class="product-container">
+                    <img src="img/item2.jpg" alt="">
+                    <div class="product-info">
+                        <h2>Role Play Toys</h2>
+                        <p>Min 30% Off</p>
+                        <p>Puppet, Doctor Set & More</p>
+                    </div>
+                </div>
+                <div class="product-container">
+                    <img src="img/item3.jpg" alt="">
+                    <div class="product-info">
+                        <h2>Samsung Galaxy F12</h2>
+                        <p>From ₹9499</p>
+                        <p>Flat 3500 Off</p>
+                    </div>
+                </div>
+                <div class="product-container">
+                    <img src="img/item4.jpg" alt="">
+                    <div class="product-info">
+                        <h2>Samsung Galaxy F42 5G</h2>
+                        <p>From 17999</p>
+                        <p>Flat 6000 Off</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- items End -->
+
+        <!-- Ad Section Start -->
+        <section class="ad">
+            <img src="img/ad1.jpg" alt="">
+            <img src="img/ad2.jpg" alt="">
+            <img src="img/ad3.jpg" alt="">
+            <img src="img/ad4.jpg" alt="">
+            <img src="img/ad5.jpg" alt="">
+            <img src="img/ad6.jpeg" alt="">
+        </section>
+        <!-- Ad Section End -->
+    </main>
+
+    <footer>
+        <div class="links">
+            <div class="about">
+                <h4>About</h4>
+                <a href="#">Contact us</a>
+                <a href="#">About Us</a>
+                <a href="#">Careers</a>
+                <a href="#">Flipkart Stories</a>
+                <a href="#">Press </a>
+                <a href="#">Flipkart Wholesale</a>
+                <a href="#">Corporate Information</a>
+            </div>
+
+            <div class="help">
+                <h4>Help</h4>
+                <a href="#">Payment</a>
+                <a href="#">Shipping</a>
+                <a href="#">Cancellation & Return</a>
+                <a href="#">FAQ</a>
+                <a href="#">Report Infringment</a>
+            </div>
+
+            <div class="policy">
+                <h4>Policy</h4>
+                <a href="#">Retun Poacy</a>
+                <a href="#">Terms Of Use</a>
+                <a href="#">Security</a>
+                <a href="#">Privacy</a>
+                <a href="#">Sitemap</a>
+                <a href="#">EPR Comaance</a>
+            </div>
+
+            <div class="social">
+                <h4>Social</h4>
+                <a href="#"><i class="fab fa-facebook"></i> Facebook</a>
+                <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
+                <a href="#"><i class="fab fa-youtube"></i> YouTube</a>
+            </div>
+
+            <div class="mail-address">
+                <h4>Mail Us</h4>
+                <p>Flipkart Internet Private Limited,</p>
+                <p>Buildings Alyssa, Begonia &</p>
+                <p>Clove Embassy Tech Village,</p>
+                <p> Outer Ring Road, Devarabeesanahalli Village,</p>
+                <p>Bengaluru, 560103,</p>
+                <p> Karnataka, India</p>
+            </div>
+
+            <div class="address">
+                <h4>Registered Office Address</h4>
+                <p>Flipkart Internet Private Limited,</p>
+                <p> Buildings Alyssa, Begonia &</p>
+                <p>Clove Embassy Tech Village,</p>
+                <p>Outer Ring Road, Devarabeesanahalli Village,</p>
+                <p>Bengaluru, 560103,</p>
+                <p>Karnataka, India</p>
+                <p>CIN : U51109KA2012PTC066107</p>
+                <p>Telephone: <a href="tel:18002029898">1800 202 9898</a></p>
+            </div>
+        </div>
+
+        <hr>
+        <div class="facility">
+            <p><i class="fas fa-shopping-bag"></i> Sell On Flipkart</p>
+            <p><i class="fas fa-star"></i> Advertise</p>
+            <p><i class="fas fa-gift"></i> Gift Cards</p>
+            <p><i class="fas fa-question-circle"></i> Help Center</p>
+            <p>&copy; 2007-2021 Flipkart.com</p>
+            <img src="img/payment.svg" alt="Cards">
+        </div>
+    </footer>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
